@@ -21,7 +21,9 @@ This script tag will be all we need to make sure p5 is loaded:
 
 ## Using p5
 
-Let's get started and have some fun with p5! In this directory you will find two source files: `index.html` and `myFirstSketch.js`. Take a look at both of them and work on solving the comments marked with 'TODO' with a partner or group. 
+Let's get started and have some fun with p5! In this directory you will find two source files: `index.html` and `myFirstSketch.js`. Take a look at both of them and work on solving the comments marked with 'TODO' with a partner or group.
+
+We recommend beginning in `index.html` and making sure your two dependencies are being brought in. Following, work on solving the bugs in `index.html`. As it is working now, (once p5 and your script are correctly being required in `index.html`), a ChromeBoi&trade; image is being drawn wherever the mouse coordinates are. 
 
 
 [p5-home]: "https://p5js.org/"
