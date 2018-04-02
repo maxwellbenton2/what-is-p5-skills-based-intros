@@ -21,9 +21,7 @@ This script tag will be all we need to make sure p5 is loaded:
 
 ## Using p5
 
-Let's get started and have some fun with p5! In this directory you will find two source files: `index.html` and `myFirstSketch.js`. Take a look at both of them and work on the following:
-  - Make sure both `p5` as well as `myFirstSketch` are being loaded by `index.html` with `<script>` tags
-  - Follow the prompts in `myFirstSketch.js` to get started in creating a basic p5 sketch
+Let's get started and have some fun with p5! In this directory you will find two source files: `index.html` and `myFirstSketch.js`. Take a look at both of them and work on solving the comments marked with 'TODO' with a partner or group. 
 
 
 [p5-home]: "https://p5js.org/"
