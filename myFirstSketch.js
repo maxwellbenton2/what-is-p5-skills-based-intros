@@ -39,7 +39,6 @@ function getTint() {
 function draw() {
   noCursor()
   if (mouseIsPressed) {
-
     // TODO: Fix me!
     // this is almost working correctly. When getTint is called, it returns one
     // of the values in our 'tints' array. Those values are functions themselves
