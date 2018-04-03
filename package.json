@@ -1,0 +1,26 @@
+{
+  "name": "what-is-p5",
+  "version": "1.0.0",
+  "description": "intro to p5 for kwk",
+  "main": "myFirstSketch.js",
+  "watch": {
+    "start": "./myFirstSketch.js"
+  },
+  "scripts": {
+    "start": "http-server",
+    "watch": "npm-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learn-co-curriculum/what-is-p5.git"
+  },
+  "author": "",
+  "license": "Flatiron School",
+  "bugs": {
+    "url": "https://github.com/learn-co-curriculum/what-is-p5/issues"
+  },
+  "homepage": "https://github.com/learn-co-curriculum/what-is-p5#readme",
+  "dependencies": {
+    "npm-watch": "^0.3.0"
+  }
+}
