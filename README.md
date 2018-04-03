@@ -22,10 +22,15 @@ This script tag will be all we need to make sure p5 is loaded:
 ## Using p5
 
 Let's get started and have some fun with p5! In this directory you will find two source files: `index.html` and `myFirstSketch.js`. Both of the files have a couple TODOs in them. Take a look and, if possible, work with a partner in solving them.
-  - Run the application with `npm run start` and inspect the results in the browser
+  - Run the application with `npm run start` and inspect the program in the browser
   - Make sure both `p5` as well as `myFirstSketch` are being loaded by `index.html` with `<script>` tags
   - Follow the prompts in `myFirstSketch.js` to get started in creating a basic p5 sketch
-  - After the TODOs have been completed, your program should look like the gif below
+  - If refreshing your browser does not seem to be updating correctly after you change your JavaScript code, you may need to clear your browser cache. In chrome, try two-finger clicking the refresh button
+
+After the TODOs have been completed your program should behave similar the gif below:
+
+![](https://curriculum-content.s3.amazonaws.com/KWK/chrome-boi-working-example.gif)
+
 
 
 [p5-home]: "https://p5js.org/"
