@@ -10,7 +10,7 @@
 ## Incorporating the p5 Library
 
 Luckily for us, p5 is freely available and we could [download it directly][dl-p5]. For use in our websites, we will incorporate a `<script>` tag that will automatically pull the whole library from the internet! This is convenient because it:
-  - Reduces the burden on us, as programmers, to store the library itself
+  - Reduces the burden on us, as programmers, to store and serve the library to clients
   - Ensures we are using the current version of p5
 
 This script tag will be all we need to make sure p5 is loaded:
@@ -21,10 +21,12 @@ This script tag will be all we need to make sure p5 is loaded:
 
 ## Using p5
 
-Let's get started and have some fun with p5! In this directory you will find two source files: `index.html` and `myFirstSketch.js`. Take a look at both of them and work on solving the comments marked with 'TODO' with a partner or group.
+Let's get started and have some fun with p5! In this directory you will find two source files: `index.html` and `myFirstSketch.js`. Both of the files have a couple TODOs in them. Take a look and, if possible, work with a partner in solving them.
+  - Make sure both `p5` as well as `myFirstSketch` are being loaded by `index.html` with `<script>` tags
+  - Follow the prompts in `myFirstSketch.js` to get started in creating a basic p5 sketch
+  - After the TODOs have been completed, your program should look like the gif below
 
-We recommend beginning in `index.html` and making sure your two dependencies are being brought in. Following, work on solving the bugs in `index.html`. As it is working now, (once p5 and your script are correctly being required in `index.html`), a ChromeBoi&trade; image is being drawn wherever the mouse coordinates are. 
-
+Make sure to refer to the documentation if you are having trouble
 
 [p5-home]: "https://p5js.org/"
 [dl-p5]: "https://p5js.org/download/"

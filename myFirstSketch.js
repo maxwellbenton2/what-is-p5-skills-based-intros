@@ -38,18 +38,18 @@ function getTint() {
 function draw() {
   noCursor()
   if (mouseIsPressed) {
+
     // TODO: Fix me!
     // this is almost working correctly. When getTint is called, it returns one
     // of the values in our 'tints' array. Those values are functions themselves
     // that have not yet been invoked. We need to make sure we invoke the
-    // functions to apply the tint!
+    // returned function to apply the tint!
     getTint()
+    // if you are having trouble, try: console.log(getTint())
   } else {
     noTint()
   }
-
-  //
-  image(chromeBoi, mouseX - 50, mouseY - 65)
+  image(chromeBoi, mouseX - 50, mouseY - 65) // draws the image at positions x, y
 }
 
 console.log("I was succesfully loaded!")
