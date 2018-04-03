@@ -45,7 +45,7 @@ function rotateTintIdx() {
   // TODO: Fix me!
   // as this is now, it will only render a red and green chromeBoi. What needs
   // to change to make sure the yellow tint is also used?
-  tintIdx = (tintIdx === 1) ? 0 : ++tintIdx
+  tintIdx = (tintIdx === 2) ? 0 : ++tintIdx
 }
 
 function getTint() {
@@ -54,7 +54,7 @@ function getTint() {
   // While we are rotating the variable `tintIdx` that is keeping track of the
   // tint index, we aren't actually using it. What needs to change in the line
   // below?
-  return tints[0]
+  return tints[tintIdx]
 }
 
 // Draw tells p5 to actively paint something. You can assume draw() is being
@@ -67,7 +67,7 @@ function draw() {
     // of the values in our 'tints' array. Those values are functions themselves
     // that have not yet been invoked. We need to make sure we invoke the
     // returned function to apply the tint!
-    getTint()
+    getTint()()
     // if you are having trouble, try: console.log(getTint())
   } else {
     noTint()
