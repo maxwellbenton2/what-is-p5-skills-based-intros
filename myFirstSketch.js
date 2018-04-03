@@ -28,8 +28,9 @@ function rotateTintIdx() {
 function getTint() {
   rotateTintIdx()
   // TODO: Fix me!
-  // While we are rotating the variable that is keeping track of the tint index,
-  // we aren't actually using it. What needs to change in the line below?
+  // While we are rotating the variable `tintIdx` that is keeping track of the
+  // tint index, we aren't actually using it. What needs to change in the line
+  // below?
   return tints[0]
 }
 

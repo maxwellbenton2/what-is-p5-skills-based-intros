@@ -26,8 +26,6 @@ Let's get started and have some fun with p5! In this directory you will find two
   - Follow the prompts in `myFirstSketch.js` to get started in creating a basic p5 sketch
   - After the TODOs have been completed, your program should look like the gif below
 
-Make sure to refer to the documentation if you are having trouble
-
 [p5-home]: "https://p5js.org/"
 [dl-p5]: "https://p5js.org/download/"
 [abstraction]: "https://en.wikipedia.org/wiki/Abstraction_(software_engineering)"
